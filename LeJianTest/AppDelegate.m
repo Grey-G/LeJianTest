@@ -7,6 +7,8 @@
 
 #import "AppDelegate.h"
 
+#import "ImageListViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,6 +18,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//    ImageListViewController *ILVC = [ImageListViewController new];
+//    [self.window setRootViewController:ILVC];
+//    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
@@ -36,5 +44,9 @@
     // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
 }
 
+-(UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
+{
+    return UIInterfaceOrientationMaskPortrait;
+}
 
 @end

@@ -3,32 +3,54 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A05E2BBC253D9570002F64E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A05E2BBB253D9570002F64E7 /* AppDelegate.m */; };
-		A05E2BBF253D9571002F64E7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A05E2BBE253D9571002F64E7 /* SceneDelegate.m */; };
-		A05E2BC2253D9571002F64E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05E2BC1253D9571002F64E7 /* ViewController.m */; };
-		A05E2BC5253D9571002F64E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05E2BC3253D9571002F64E7 /* Main.storyboard */; };
 		A05E2BC7253D9574002F64E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A05E2BC6253D9574002F64E7 /* Assets.xcassets */; };
 		A05E2BCA253D9574002F64E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05E2BC8253D9574002F64E7 /* LaunchScreen.storyboard */; };
 		A05E2BCD253D9574002F64E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A05E2BCC253D9574002F64E7 /* main.m */; };
+		A05E2BFE253DA0B4002F64E7 /* ImageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05E2BF5253DA0B3002F64E7 /* ImageListViewController.m */; };
+		A05E2C05253DA21C002F64E7 /* libPods-LeJianTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A05E2C04253DA21C002F64E7 /* libPods-LeJianTest.a */; };
+		A05E2C12253DA3FA002F64E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05E2C11253DA3FA002F64E7 /* Main.storyboard */; };
+		A05E2C16253DA413002F64E7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A05E2C14253DA413002F64E7 /* SceneDelegate.m */; };
+		A05E2C29253E729C002F64E7 /* ListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A05E2C27253E729C002F64E7 /* ListCollectionViewCell.m */; };
+		A05E2C2A253E729C002F64E7 /* ListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05E2C28253E729C002F64E7 /* ListCollectionViewCell.xib */; };
+		A05E2C2E253E72AD002F64E7 /* ListCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A05E2C2D253E72AD002F64E7 /* ListCollectionView.m */; };
+		A05E2C43253E8489002F64E7 /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A05E2C42253E8489002F64E7 /* HttpRequest.m */; };
+		A05E2C63253EDD47002F64E7 /* ListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A05E2C62253EDD47002F64E7 /* ListModel.m */; };
+		A05E2C6C253F0F9D002F64E7 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = A05E2C6B253F0F9D002F64E7 /* Tools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68F5D90CEFAD9FCA1A67CA31 /* Pods-LeJianTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeJianTest.release.xcconfig"; path = "Target Support Files/Pods-LeJianTest/Pods-LeJianTest.release.xcconfig"; sourceTree = "<group>"; };
+		690F4F87406DD46EA3F7C91D /* Pods-LeJianTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeJianTest.debug.xcconfig"; path = "Target Support Files/Pods-LeJianTest/Pods-LeJianTest.debug.xcconfig"; sourceTree = "<group>"; };
 		A05E2BB7253D9570002F64E7 /* LeJianTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeJianTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05E2BBA253D9570002F64E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A05E2BBB253D9570002F64E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A05E2BBD253D9571002F64E7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		A05E2BBE253D9571002F64E7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		A05E2BC0253D9571002F64E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A05E2BC1253D9571002F64E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A05E2BC4253D9571002F64E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A05E2BC6253D9574002F64E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A05E2BC9253D9574002F64E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A05E2BCB253D9574002F64E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A05E2BCC253D9574002F64E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A05E2BF5253DA0B3002F64E7 /* ImageListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageListViewController.m; sourceTree = "<group>"; };
+		A05E2BF6253DA0B3002F64E7 /* ImageListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageListViewController.h; sourceTree = "<group>"; };
+		A05E2C04253DA21C002F64E7 /* libPods-LeJianTest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libPods-LeJianTest.a"; sourceTree = "<group>"; };
+		A05E2C11253DA3FA002F64E7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A05E2C14253DA413002F64E7 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A05E2C15253DA413002F64E7 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A05E2C26253E729B002F64E7 /* ListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListCollectionViewCell.h; sourceTree = "<group>"; };
+		A05E2C27253E729C002F64E7 /* ListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListCollectionViewCell.m; sourceTree = "<group>"; };
+		A05E2C28253E729C002F64E7 /* ListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCollectionViewCell.xib; sourceTree = "<group>"; };
+		A05E2C2C253E72AD002F64E7 /* ListCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListCollectionView.h; sourceTree = "<group>"; };
+		A05E2C2D253E72AD002F64E7 /* ListCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListCollectionView.m; sourceTree = "<group>"; };
+		A05E2C32253E7873002F64E7 /* PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
+		A05E2C41253E8489002F64E7 /* HttpRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		A05E2C42253E8489002F64E7 /* HttpRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
+		A05E2C61253EDD47002F64E7 /* ListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListModel.h; sourceTree = "<group>"; };
+		A05E2C62253EDD47002F64E7 /* ListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListModel.m; sourceTree = "<group>"; };
+		A05E2C6A253F0F9D002F64E7 /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		A05E2C6B253F0F9D002F64E7 /* Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +58,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05E2C05253DA21C002F64E7 /* libPods-LeJianTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		334C84ADB3149101297C44F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				690F4F87406DD46EA3F7C91D /* Pods-LeJianTest.debug.xcconfig */,
+				68F5D90CEFAD9FCA1A67CA31 /* Pods-LeJianTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A05E2BAE253D9570002F64E7 = {
 			isa = PBXGroup;
 			children = (
 				A05E2BB9253D9570002F64E7 /* LeJianTest */,
 				A05E2BB8253D9570002F64E7 /* Products */,
+				334C84ADB3149101297C44F4 /* Pods */,
+				EC0F351F7E8E289AE36C2B27 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,17 +97,69 @@
 			children = (
 				A05E2BBA253D9570002F64E7 /* AppDelegate.h */,
 				A05E2BBB253D9570002F64E7 /* AppDelegate.m */,
-				A05E2BBD253D9571002F64E7 /* SceneDelegate.h */,
-				A05E2BBE253D9571002F64E7 /* SceneDelegate.m */,
-				A05E2BC0253D9571002F64E7 /* ViewController.h */,
-				A05E2BC1253D9571002F64E7 /* ViewController.m */,
-				A05E2BC3253D9571002F64E7 /* Main.storyboard */,
+				A05E2C15253DA413002F64E7 /* SceneDelegate.h */,
+				A05E2C14253DA413002F64E7 /* SceneDelegate.m */,
+				A05E2C11253DA3FA002F64E7 /* Main.storyboard */,
+				A05E2BF4253DA0B3002F64E7 /* VC */,
+				A05E2BF8253DA0B3002F64E7 /* View */,
+				A05E2BF7253DA0B3002F64E7 /* Model */,
+				A05E2C40253E8472002F64E7 /* HttpRequest */,
+				A05E2C6A253F0F9D002F64E7 /* Tools.h */,
+				A05E2C6B253F0F9D002F64E7 /* Tools.m */,
 				A05E2BC6253D9574002F64E7 /* Assets.xcassets */,
+				A05E2C32253E7873002F64E7 /* PrefixHeader.h */,
 				A05E2BC8253D9574002F64E7 /* LaunchScreen.storyboard */,
 				A05E2BCB253D9574002F64E7 /* Info.plist */,
 				A05E2BCC253D9574002F64E7 /* main.m */,
 			);
 			path = LeJianTest;
+			sourceTree = "<group>";
+		};
+		A05E2BF4253DA0B3002F64E7 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				A05E2BF6253DA0B3002F64E7 /* ImageListViewController.h */,
+				A05E2BF5253DA0B3002F64E7 /* ImageListViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		A05E2BF7253DA0B3002F64E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A05E2C61253EDD47002F64E7 /* ListModel.h */,
+				A05E2C62253EDD47002F64E7 /* ListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A05E2BF8253DA0B3002F64E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A05E2C2C253E72AD002F64E7 /* ListCollectionView.h */,
+				A05E2C2D253E72AD002F64E7 /* ListCollectionView.m */,
+				A05E2C26253E729B002F64E7 /* ListCollectionViewCell.h */,
+				A05E2C27253E729C002F64E7 /* ListCollectionViewCell.m */,
+				A05E2C28253E729C002F64E7 /* ListCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A05E2C40253E8472002F64E7 /* HttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				A05E2C41253E8489002F64E7 /* HttpRequest.h */,
+				A05E2C42253E8489002F64E7 /* HttpRequest.m */,
+			);
+			path = HttpRequest;
+			sourceTree = "<group>";
+		};
+		EC0F351F7E8E289AE36C2B27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A05E2C04253DA21C002F64E7 /* libPods-LeJianTest.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A05E2BD0253D9574002F64E7 /* Build configuration list for PBXNativeTarget "LeJianTest" */;
 			buildPhases = (
+				6EAA5F7E94DAE613AE0E651F /* [CP] Check Pods Manifest.lock */,
 				A05E2BB3253D9570002F64E7 /* Sources */,
 				A05E2BB4253D9570002F64E7 /* Frameworks */,
 				A05E2BB5253D9570002F64E7 /* Resources */,
+				43F1B78ACFCF1AAA2FDA5F93 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -103,13 +191,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = Grey;
 				TargetAttributes = {
 					A05E2BB6253D9570002F64E7 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
 			};
-			buildConfigurationList = A05E2BB2253D9570002F64E7 /* Build configuration list for PBXProject "LeJianTest" */;
+			buildConfigurationList = A05E2BB2253D9570002F64E7 /* Build configuration list for PBXProject "LejianTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,37 +221,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05E2C2A253E729C002F64E7 /* ListCollectionViewCell.xib in Resources */,
 				A05E2BCA253D9574002F64E7 /* LaunchScreen.storyboard in Resources */,
 				A05E2BC7253D9574002F64E7 /* Assets.xcassets in Resources */,
-				A05E2BC5253D9571002F64E7 /* Main.storyboard in Resources */,
+				A05E2C12253DA3FA002F64E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43F1B78ACFCF1AAA2FDA5F93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeJianTest/Pods-LeJianTest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeJianTest/Pods-LeJianTest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeJianTest/Pods-LeJianTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EAA5F7E94DAE613AE0E651F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeJianTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A05E2BB3253D9570002F64E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A05E2BC2253D9571002F64E7 /* ViewController.m in Sources */,
+				A05E2BFE253DA0B4002F64E7 /* ImageListViewController.m in Sources */,
+				A05E2C16253DA413002F64E7 /* SceneDelegate.m in Sources */,
+				A05E2C2E253E72AD002F64E7 /* ListCollectionView.m in Sources */,
+				A05E2C6C253F0F9D002F64E7 /* Tools.m in Sources */,
+				A05E2C63253EDD47002F64E7 /* ListModel.m in Sources */,
 				A05E2BBC253D9570002F64E7 /* AppDelegate.m in Sources */,
+				A05E2C43253E8489002F64E7 /* HttpRequest.m in Sources */,
 				A05E2BCD253D9574002F64E7 /* main.m in Sources */,
-				A05E2BBF253D9571002F64E7 /* SceneDelegate.m in Sources */,
+				A05E2C29253E729C002F64E7 /* ListCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A05E2BC3253D9571002F64E7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A05E2BC4253D9571002F64E7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A05E2BC8253D9574002F64E7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,15 +417,22 @@
 		};
 		A05E2BD1253D9574002F64E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 690F4F87406DD46EA3F7C91D /* Pods-LeJianTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7VRBV5YM48;
+				GCC_PREFIX_HEADER = "/Users/guogrey/Desktop/学习/LeJianTest/LeJianTest/PrefixHeader.h";
 				INFOPLIST_FILE = LeJianTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.GreyTest.www.LeJianTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,15 +442,22 @@
 		};
 		A05E2BD2253D9574002F64E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68F5D90CEFAD9FCA1A67CA31 /* Pods-LeJianTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7VRBV5YM48;
+				GCC_PREFIX_HEADER = "/Users/guogrey/Desktop/学习/LeJianTest/LeJianTest/PrefixHeader.h";
 				INFOPLIST_FILE = LeJianTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.GreyTest.www.LeJianTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -325,7 +468,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A05E2BB2253D9570002F64E7 /* Build configuration list for PBXProject "LeJianTest" */ = {
+		A05E2BB2253D9570002F64E7 /* Build configuration list for PBXProject "LejianTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A05E2BCE253D9574002F64E7 /* Debug */,
